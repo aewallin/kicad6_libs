@@ -632,7 +632,7 @@
     (property "Value" "PA441DF" (id 1) (at 10.16 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:SO-20-1EP_7.52x12.825mm_P1.27mm_EP6.045x12.09mm_Mask3.56x4.47mm" (id 2) (at -7.62 25.4 0)
+    (property "Footprint" "aw_kicad6:HSOP-24-1EP" (id 2) (at -7.62 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.apexanalog.com/resources/products/pa441u-pa443u.pdf" (id 3) (at -3.556 29.845 0)
@@ -655,6 +655,10 @@
       (pin no_connect line (at -12.7 0 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -12.7 0 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0 -11.43 90) (length 5.207)
         (name "EP" (effects (font (size 1.27 1.27))))
