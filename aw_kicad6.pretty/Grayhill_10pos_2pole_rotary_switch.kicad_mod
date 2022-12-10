@@ -19,6 +19,7 @@
     (tstamp 4fcdeb4f-299a-4093-a215-4b5b6b30c485)
   )
   (fp_circle (center 0 0) (end 6.35 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp ead5d365-0cee-4c37-8695-96d05a91c707))
+  (fp_circle (center 6.8 2.2) (end 7.3 2.2) (layer "F.SilkS") (width 0.12) (fill solid) (tstamp fa526684-90a2-44ca-ab9a-ca557ba0bf7d))
   (fp_circle (center 0 0) (end 4.32 0) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 935cf8eb-3f5e-41f0-8bf7-9e19aea79e0a))
   (pad "1" thru_hole circle (at 4.109 1.335) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask) (tstamp 24dcc75c-e165-45d1-b80f-da0c95bdda39))
   (pad "2" thru_hole circle (at 2.539 3.495) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask) (tstamp a6c15359-dfbe-478b-8b7e-91be14630acf))
