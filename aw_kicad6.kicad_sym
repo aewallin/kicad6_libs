@@ -569,29 +569,29 @@
       )
     )
   )
-  (symbol "CVC055CL_VCO" (in_bom yes) (on_board yes)
+  (symbol "CVC055xx" (in_bom yes) (on_board yes)
     (property "Reference" "X" (id 0) (at -7.62 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "CVC055CL_VCO" (id 1) (at 2.54 6.35 0)
+    (property "Value" "CVC055xx" (id 1) (at 2.54 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CK605_LandPatternPL-012" (id 2) (at 0 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at -5.08 2.54 0)
+    (property "Datasheet" "https://www.crystek.com/microwave/admin/webapps/welcome/files/vco/CVCO55CL-0150-0200.pdf" (id 3) (at -5.08 2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "VCXO" (id 4) (at 0 0 0)
+    (property "ki_keywords" "VCXO VCO Crystek" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Voltage Controlled Oscillator, Crystek" (id 5) (at 0 0 0)
+    (property "ki_description" "Voltage Controlled Oscillator, Crystek, 38 MHz  to 1800 MHz" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_fp_filters" "Mini?Circuits*BK377*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "CVC055CL_VCO_0_0"
+    (symbol "CVC055xx_0_0"
       (pin passive line (at 0 -7.62 90) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
@@ -601,7 +601,7 @@
         (number "16" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "CVC055CL_VCO_0_1"
+    (symbol "CVC055xx_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -623,7 +623,7 @@
         (fill (type none))
       )
     )
-    (symbol "CVC055CL_VCO_1_1"
+    (symbol "CVC055xx_1_1"
       (pin passive line (at 0 -7.62 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
